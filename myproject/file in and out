@@ -1,0 +1,113 @@
+# fo=open(r'C:\Users\evasu\OneDrive\Desktop\silpa.txt','r')
+# hh=fo.read()
+# print(hh)
+# fo.close()
+#
+# fo=open(r'C:\Users\evasu\OneDrive\Desktop\silpa.txt','r')
+# hh=fo.readline()
+# print(hh)
+# fo.close()
+
+
+# fo=open(r'C:\Users\evasu\OneDrive\Desktop\silpa.txt','r')
+# hh=fo.readlines()
+# print(hh)
+# fo.close()
+
+
+# fo=open(r'C:\Users\evasu\OneDrive\Desktop\silpa.txt')
+# hh=fo.readlines()
+# print(hh)
+# # fo.close()
+#
+# fo=open(r'C:\Users\evasu\OneDrive\Desktop\silpa.txt','w')
+# fo2=fo.write("sun rices in east")
+#
+# fo.close()
+
+#
+# f1=open(r'C:\Users\evasu\OneDrive\Desktop\silpa.txt','w')
+# f2_obj=f1.writelines(["sun\n","rices\n","in\n","east\n"])
+# f1.close()
+
+#
+# f1=open(r'C:\Users\evasu\OneDrive\Desktop\silpa.txt','a')
+# f2_obj=f1.writelines("sun rices in east")
+# f1.close()
+#
+# f1=open(r'C:\Users\evasu\OneDrive\Desktop\silpa.txt','a')
+# a=f1.writelines(["welcome\n","to\n","python\n"])
+# f1.close()
+
+#
+# f1=open(r'C:\Users\evasu\OneDrive\Desktop\silpa.txt','r')
+# a=f1.read()
+# print(a)
+# f1.close()
+#
+#
+# f1=open(r'C:\Users\evasu\OneDrive\Desktop\silpa.txt','r')
+# a=f1.read()
+# f1.close()
+#
+# f1=open(r'C:\Users\evasu\OneDrive\Desktop\silpa.txt','r')
+# a=f1.readline()
+# f1.close()
+
+# f1=open(r'C:\Users\evasu\OneDrive\Desktop\silpa.txt','r')
+# a=f1.readlines()
+# f1.close()
+
+# f3=open(r'C:\Users\evasu\OneDrive\Desktop\silpa.txt','w')
+# g=f3.write("i am going")
+#
+# f3.close()
+#
+#
+# f3=open(r'C:\Users\evasu\OneDrive\Desktop\silpa.txt','w')
+# g=f3.writelines(["i\n","am\n","going\n"])
+#
+# f3.close()
+
+#  f3=open(r'C:\Users\evasu\OneDrive\Desktop\silpa.txt','a')
+# g=f3.write("i am going")
+#
+#  f3.close()
+
+#file
+# file_obj=open(r'C:\Users\evasu\OneDrive\Desktop\New practice.txt','r')
+# book=file_obj.read()
+# print(book)
+# file_obj.close()
+#
+# file_obj=open(r'C:\Users\evasu\OneDrive\Desktop\New practice.txt','r')
+# book=file_obj.readline()
+# print(book)
+
+# file_obj=open(r'C:\Users\evasu\OneDrive\Desktop\New practice.txt','r')
+# book=file_obj.readlines()
+# print(book)
+# file_obj.close()
+
+# file_obj=open(r'C:\Users\evasu\OneDrive\Desktop\New practice.txt','w')
+# file_obj.write("india is my country")
+# file_obj.close()
+
+#
+# file_obj=open(r'C:\Users\evasu\OneDrive\Desktop\New practice.txt','w')
+# file_obj.writelines(["india\n","is\n","my\n","country\n"])
+# file_obj.close()
+
+file_obj=open(r'C:\Users\evasu\OneDrive\Desktop\New practice.txt','a')
+file_obj.write("india is my country")
+file_obj.close()
+
+
+file_obj=open(r'C:\Users\evasu\OneDrive\Desktop\New practice.txt','a')
+file_obj.writelines("india is my country")
+file_obj.close()
+
+
+file_obj=open(r'C:\Users\evasu\OneDrive\Desktop\New practice.txt','a')
+file_obj.writelines(["india\n","is\n","my\n","country\n"])
+file_obj.close()
